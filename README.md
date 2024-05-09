@@ -1,4 +1,4 @@
-# Title: Playwright tests for Amazon functionality
+# Playwright tests for Amazon functionality
 
 ## Description:
 
@@ -19,6 +19,8 @@ This repository contains automated Playwright test scripts designed to verify co
 ## Step for installation of Playwright through npm
 
 Open the terminal and run the command
+
+```npm init```
 
 ```npm init playwright@latest```
 
@@ -44,12 +46,12 @@ This command will run the test in headed mode
 ``` npx playwright test \<File name>  --headed``` 
 
   
-### Running test file in single browser and headed mode
+### Running test file in a single browser and headed mode
 
   
-This command will run test in single browser in headed mode
+This command will run a test in a single browser in a headed mode
 
-``` npx playwright test\<File name>  -- project<Browser name>  --headed``` 
+``` npx playwright test\<File name>  -- project <Browser name>  --headed``` 
 
 eg.
 
@@ -58,7 +60,7 @@ eg.
   
 ### Running test file in UI Mode
 
-This command will run your tests with [UI Mode](https://playwright.dev/docs/test-ui-mode) for a better developer experience with time travel debugging, watch mode and more.
+This command will run your tests with [UI Mode](https://playwright.dev/docs/test-ui-mode) for a better developer experience with time travel debugging, watch mode, and more.
 
 ``` npx playwright test --ui``` 
 
@@ -66,11 +68,11 @@ This command will run your tests with [UI Mode](https://playwright.dev/docs/tes
 
 ## HTML Test Reports
 
-This command will show you a full report of your tests allowing you to filter the report by browsers, passed tests, failed tests, skipped tests and flaky tests. You can click on each test and explore the test's errors as well as each step of the test. By default, the HTML report is opened automatically if some of the tests failed.
+This command will show you a full report of your tests allowing you to filter the report by browsers, passed tests, failed tests, skipped tests, and flaky tests. You can click on each test and explore the test's errors as well as each step of the test. By default, the HTML report is opened automatically if some of the tests failed.
 
 ``` npx playwright test show-report``` 
 
 
 ## Note 
 
-To run the code locally you need to enter you email/ phone number and password at line no 9 and 15 resp. of test file
+To run the code locally you need to enter your amazon.in login credential at lines no 9 and 15 resp. of the test file
