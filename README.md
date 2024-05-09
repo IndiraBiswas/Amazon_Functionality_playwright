@@ -1,6 +1,6 @@
-# Title**:** Playwright tests for Amazon functionality
+# Title: Playwright tests for Amazon functionality
 
-## Description**:**
+## Description:
 
 This repository contains automated Playwright test scripts designed to verify core functionalities of the Amazon website, including:
 
@@ -9,11 +9,11 @@ This repository contains automated Playwright test scripts designed to verify co
 *   Product Checkout
 *   Wishlist Functionality
 
-## Key features**:**
+## Key features:
 
-*   Cross-browser compatibility**:** Tests run seamlessly on Chromium, Firefox, and WebKit engines.
+*   Cross-browser compatibility: Tests run seamlessly on Chromium, Firefox, and WebKit engines.
 
-*   Detailed assertions**:** Assertions ensure expected behavior for each test case.
+*   Detailed assertions: Assertions ensure expected behavior for each test case.
 
 
 ## Step for installation of Playwright through npm
